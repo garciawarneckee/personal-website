@@ -13,15 +13,12 @@ export default class Welcome extends Component {
           <div className="Welcome">
             <header className="Welcome-header">
               <Typed 
-                strings={[
-                  firstMessage, 
-                  secondMessage,
-                  'Hey there, glad you to be here!']} 
-                   typeSpeed={100}
-                   style= { { 'font-size': 36 } } 
-                   className="Welcome-intro Welcome-title Centered-content"
-                   fadeOut={true}
-                   onComplete={ (self) => { this.sleep(2000).then( () => { self.destroy() } ) }  }
+                strings={[ firstMessage, secondMessage, 'Hey there, glad you to be here!']} 
+                typeSpeed={100}
+                style= { { 'fontSize': 36 } } 
+                className="Welcome-intro Welcome-title Centered-content"
+                fadeOut={true}
+                onComplete={ (self) => { this.sleep(2000).then( () => { self.destroy() } ) }  }
               />
             </header>
           </div>
