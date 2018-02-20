@@ -18,7 +18,10 @@ export default class Welcome extends Component {
                 style= { { 'fontSize': 36 } } 
                 className="Welcome-intro Welcome-title Centered-content"
                 fadeOut={true}
-                onComplete={ (self) => { this.sleep(2000).then( () => { self.destroy() } ) } }
+                onComplete={ (self) => { this.sleep(1000).then( () => { 
+                  self.destroy() } )
+                  this.sleep(1000).then( () => this.props.history.push('/main') )
+                } }
               />
             </header>
           </div>
