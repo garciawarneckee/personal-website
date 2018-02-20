@@ -1,10 +1,17 @@
 import React, { Component } from 'react'
-import './Main.css';
+
+import RoundedImage from '../RoundedImage'
+
+import './Main.css'
+import '../../assets/theme/Common.css'
 
 export default class MainPage extends Component {
     render() {
         return(
-            <div className="ReallyBigText"> Holaaaaaaaa </div>
+            <div>
+                <div className="ReallyBigText"> Holaaaaaaaa </div>
+                <RoundedImage src={ require("../../assets/images/javascript.png") } injectedStyle="Small-Img" />
+            </div>
         )
         
     }

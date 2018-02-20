@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Typed from 'react-typed';
 
 import './Welcome.css';
-import Colors from '../../theme/Colors'
+import Colors from '../../assets/theme/Colors'
 
 export default class Welcome extends Component {
     render() {
@@ -14,7 +14,7 @@ export default class Welcome extends Component {
             <header className="Welcome-header">
               <Typed 
                 strings={[ firstMessage, secondMessage, 'Hey there, glad you to be here!']} 
-                typeSpeed={100}
+                typeSpeed={5}
                 style= { { 'fontSize': 36 } } 
                 className="Welcome-intro Welcome-title Centered-content"
                 fadeOut={true}
