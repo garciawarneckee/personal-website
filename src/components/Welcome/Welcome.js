@@ -14,7 +14,7 @@ export default class Welcome extends Component {
             <header className="Welcome-header">
               <Typed 
                 strings={[ firstMessage, secondMessage, 'Hey there, glad you to be here!']} 
-                typeSpeed={5}
+                typeSpeed={25}
                 style= { { 'fontSize': 36 } } 
                 className="Welcome-intro Welcome-title Centered-content"
                 fadeOut={true}

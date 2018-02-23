@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 
-import RoundedImage from '../RoundedImage'
+import { RoundedImage }  from 'egw-react-components'
 
 import './Main.css'
-import '../../assets/theme/Common.css'
 
 export default class MainPage extends Component {
+
     render() {
+        const JavascriptImage = require("../../assets/images/javascript.png")
         return(
             <div>
-                <div className="ReallyBigText"> Holaaaaaaaa </div>
-                <RoundedImage src={ require("../../assets/images/javascript.png") } injectedStyle="Small-Img" />
+                <RoundedImage src={ JavascriptImage } size="small" />
             </div>
         )
         
