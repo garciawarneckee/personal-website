@@ -16,6 +16,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "egw-react-components": "^0.1.0"
+    "egw-react-components": "^0.1.4"
   }
 }

@@ -8,8 +8,8 @@ import '../../assets/theme/Common.css'
 export default class MainPage extends Component {
 
     render() {
-        const JavascriptImage = require("../../assets/images/javascript.png")
-        const ReactImage = require("../../assets/images/react.png")
+        const JavascriptImage = require('../../assets/images/javascript.png')
+        const ReactImage = require('../../assets/images/react.png')
         return(
             <div>
                 <h1 className='FadeInTransition CenteredText'> Esteban Gabriel García Warnecke </h1>
@@ -21,8 +21,8 @@ export default class MainPage extends Component {
                     Participar de las entrevistas con posibles clientes, proponer soluciones, diseñarlas, programarlas, conocer personas y trabajar con ellas. 
                     Esa es mi visión, la visión de crear soluciones a problemas. </p>
                 </section>
-                {/* <RoundedImage src={ JavascriptImage } size="small" />
-                <RoundedImage src={ ReactImage } size="small" /> */}
+                <RoundedImage src={ JavascriptImage } size='small' />
+                {/* <RoundedImage src={ ReactImage } size="small" />  */}
             </div>
         )
         
