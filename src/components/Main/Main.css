@@ -1,4 +1,9 @@
-.ReallyBigText {
-    font-size: 48px;
-    color: '#FFFFFF'
+h1 {
+    font-size: 72px;
+    color: white;
+}
+
+.Disclaimer > p {
+    font-size: 20px;
+    color: white;
 }
