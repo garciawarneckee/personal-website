@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { RoundedImage }  from 'egw-react-components'
+import { Badge, RoundedImage }  from 'egw-react-components'
 
 import './Main.css'
 import '../../assets/theme/Common.css'
@@ -11,7 +11,7 @@ export default class MainPage extends Component {
         const JavascriptImage = require('../../assets/images/javascript.png')
         const ReactImage = require('../../assets/images/react.png')
         return(
-            <div>
+            <section className='Main-Page'>
                 <h1 className='FadeInTransition CenteredText'> Esteban Gabriel García Warnecke </h1>
                 <section className='Disclaimer CenteredText'>
                     <p>Me encanta crear y diseñar cosas. En mi cabeza no solo se proyectan algoritmos, clases y objetos, si no que visualizo problemas, productos y nuevas formas de solucionarlos. 
@@ -21,9 +21,16 @@ export default class MainPage extends Component {
                     Participar de las entrevistas con posibles clientes, proponer soluciones, diseñarlas, programarlas, conocer personas y trabajar con ellas. 
                     Esa es mi visión, la visión de crear soluciones a problemas. </p>
                 </section>
-                <RoundedImage src={ JavascriptImage } size='small' />
+                <div className="Technical-Skills">
+                    <Badge name="Javascript" image={ JavascriptImage } />
+                    <Badge name="React" image={ ReactImage } />
+                    <Badge name="Javascript" />
+                    <Badge name="Javascript" />
+                    <Badge name="Javascript" />
+                    <Badge name="Javascript" />
+                </div>
                 {/* <RoundedImage src={ ReactImage } size="small" />  */}
-            </div>
+            </section>
         )
         
     }

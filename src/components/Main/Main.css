@@ -3,7 +3,19 @@ h1 {
     color: white;
 }
 
+.Main-Page {
+    background-image: url('../../assets/images/mac-work.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
 .Disclaimer > p {
     font-size: 20px;
     color: white;
+}
+
+.Technical-Skills {
+    display: flex;
+    justify-content: space-around;
 }
