@@ -4,10 +4,16 @@ h1 {
 }
 
 .Main-Page {
-    background-image: url('../../assets/images/mac-work.png');
+    background-image: url('../../assets/images/landing.jpg');
     background-repeat: no-repeat;
+    background-size: cover; 
     width: 100%;
-    height: auto;
+    height: 100%;
+}
+
+.Main-Page > h1 {
+    font-size: 48px;
+    color: blanchedalmond;
 }
 
 .Disclaimer > p {
